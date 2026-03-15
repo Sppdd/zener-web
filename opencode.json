@@ -1,0 +1,28 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+      "dart-mcp-server": {
+        "type": "local",
+        "command": [
+          "dart",
+          "mcp-server"
+        ],
+        "enabled": false,
+        "environment": {}
+      },
+      "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "ctx7sk-4a7fb3b1-7a1f-4ae0-bbb4-7d1d75cbd9c9"
+      },
+      "enabled": true
+     }
+    },
+    
+    "permission": {
+      "webfetch": "allow"
+    }
+      
+  }
+  
