@@ -34,3 +34,9 @@ pnpm-debug.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+agents.md
+PLAN.md
+ROLES.md
+roles.md
+submissionRequirements.md
+node_modules
